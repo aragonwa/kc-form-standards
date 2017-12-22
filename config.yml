@@ -1,0 +1,24 @@
+name: Form Standards
+logo: assets/img/blavatar.png 
+
+excludeDir:
+
+assets:
+  - assets
+
+sidebar:
+  background: "#3c7893"
+  textColor: "#fff"
+
+headHtml: |
+  <link rel="stylesheet" href="/assets/css/kc-theme-corporate.css">
+  <style>body{background-color:#FFFFFF;}#exampleFocusInput{border-color:#66afe9;outline:0;box-shadow:inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);}</style>
+
+bodyHtml: |
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+order:
+  - +King County Form standards
+  - Components
+  - -Form Controls

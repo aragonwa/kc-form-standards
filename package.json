@@ -1,0 +1,16 @@
+{
+  "name": "forms-standards",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "stylemark": "^0.5.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "stylemark -i ./components -o ./public -c ./config.yml -w -b",
+    "deploy":"surge public kc-form-standards.surge.sh"
+  },
+  "author": "Alex Aragon",
+  "license": "ISC"
+}
