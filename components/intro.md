@@ -13,6 +13,8 @@ Keep forms as simple as possible - only ask what's needed.
 
 [Dropdown](/#dropdown)
 
+[Errors](/#errors)
+
 [Fieldset](/#fieldset)
 
 [File upload](/#file-upload)

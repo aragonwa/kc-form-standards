@@ -6,7 +6,7 @@ category: Form Controls
 - A control that lets the user select a file.
 
 **Accessibility**
-- Use a native input using type="file", rather than a custom implementation.
+- Use a native input using `type="file"`, rather than a custom implementation.
 
 ```example.html
 <div class="form-group">
